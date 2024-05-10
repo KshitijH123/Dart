@@ -9,7 +9,7 @@ void main() {
 
   if (cat.height > dog.height) {
     print('Cat is taller');
-  } else if (cat.height! < dog.height!) {
+  } else if (cat.height < dog.height) {
     print('Dog is taller');
   } else {
     print('Both are  same');
