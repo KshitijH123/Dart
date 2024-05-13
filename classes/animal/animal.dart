@@ -1,17 +1,24 @@
+// Super Class, Parent Class
 class Animal {
   String name;
   int height;
   int weight;
 
   Animal({
-   required this.name,
-   required this.height,
-   required this.weight,
-  }) {
-    print('Constructor called for $name');
+    required this.name,
+    required this.height,
+    required this.weight,
+  });
+
+  void eat() {
+    print('$name is Eating');
   }
 
-  void run() {
-    print('$name is Running');
+   void sleep() {
+    print('$name is Sleeping');
+  }
+
+  void fight() {
+    print('$name is Fighting');
   }
 }
